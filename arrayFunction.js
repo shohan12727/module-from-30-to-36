@@ -13,4 +13,7 @@ const subtraction = (a,b) => {
 }
 console.log(subtraction(55,78));
 
+const square = x => x*2;
+console.log(square(7));
 
+d
