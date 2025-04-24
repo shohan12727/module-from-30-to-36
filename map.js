@@ -11,9 +11,9 @@ console.log(new_array);
 
 
 
-// for (index = 0; index <numbers.length; index++){
-//     const element = numbers[index];
-//     console.log(element);
+for (index = 0; index <numbers.length; index++){
+    const element = numbers[index];
+    console.log(element);
 // }
 const newArray = numbers.map(number => number+1);
-// console.log(newArray);
+console.log(newArray);
