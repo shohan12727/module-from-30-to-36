@@ -26,7 +26,12 @@ const person = {
   console.log(person["education"]["university"]['name']);
 
   
+  
 
+
+
+
+  
   
 
 

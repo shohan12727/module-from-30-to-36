@@ -1,20 +1,20 @@
-// const loop = products.map((product)=>{
+const loop = products.map((product)=>{
 
-//     if (product.color==="Black"){
-//         console.log(product);
-//     } else {
-//         console.log("not found");
-//     }
+    if (product.color==="Black"){
+        console.log(product);
+    } else {
+        console.log("not found");
+    }
 
-// });      
-// console.log(loop);
+});      
+console.log(loop);
 
 
-// products.forEach(product => {
-//     if (product.color==="Black"){
-//         console.log(product);
-//     } 
-// })
+products.forEach(product => {
+    if (product.color==="Black"){
+        console.log(product);
+    } 
+})
 
 const products = [
     { id: 1, name: "Smartphone", color: "Black", price: 299.99, brand: "Samsung" },
@@ -24,13 +24,13 @@ const products = [
     { id: 5, name: "phone", color: "Black", price: 2022, brand: "xiaomi" }
 ];
 
-// const newArray = products.filter(product => product.price > 500);
+const newArray = products.filter(product => product.price > 500);
 
-// console.log(newArray);
+console.log(newArray);
 
-// const newArray = products.filter(product => product.price > 500);
+const newArray = products.filter(product => product.price > 500);
 
-// console.log(newArray);
+console.log(newArray);
 
 const newProducts = products.find(p=>p.id===3);
 console.log(newProducts);
