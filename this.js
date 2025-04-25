@@ -3,14 +3,14 @@
  */
 
 
-// const person = {
-//     name :'shohan',
-//     action:function (params) {
-//       console.log(this.name)        
-//     }
-// }
+const person = {
+    name :'shohan',
+    action:function (params) {
+      console.log(this.name)        
+    }
+}
 
-// person.action();
+person.action();
 
 class person {
     constructor(name, age) {
