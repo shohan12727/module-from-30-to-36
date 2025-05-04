@@ -1,6 +1,6 @@
-const element1 = friends[1];
-const element2 = friends[2];
-const element3 = friends[3];
+// const element1 = friends[1];
+// const element2 = friends[2];
+// const element3 = friends[3];
 console.log(element1,element2,element3);
 const friends = ['shohan', 'rajesh', 'pal', 'simanto', 'koishik'];
 
